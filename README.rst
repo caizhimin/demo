@@ -48,6 +48,12 @@ Running tests with py.test
 
   $ py.test
 
+Running tests in Docker
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+  docker-compose -f local.yml run django python manage.py test
 Live reloading and Sass CSS compilation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
